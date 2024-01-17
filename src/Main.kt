@@ -7,13 +7,13 @@ fun main() {
     //var name:String = "Cam Tu"
     //println(name)
     // val ko dc gan gtri (immutable)
-    val phone : String ="093234523"
+    // val phone : String ="093234523"
     // Basic type : Kieu du lieu co ban
     // Reference type : Kieu du lieu vung nho
-    var age : Int = 29
-    var height : Float = 1.75f
-    var weight : Double = 70.5
+    // var age : Int = 29
+    // var height : Float = 1.75f
+    // var weight : Double = 70.5
     // boolean kieu dung sai la co true hoac false
-    var isMale : Boolean = true
-    var name = "Cam Tu"
+    // var isMale : Boolean = true
+
 }
