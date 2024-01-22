@@ -106,6 +106,29 @@ fun main() {
         }
     }
      */
+    // so nguyen to
+    // chia het cho 2
+    // chia 1 va chinh no
+    // kiem tra co lon hon 1 ko
+    var number = 408
+    var isPrime = true
+    if(number <  2){
+        println("Khong phai so nguyen to ")
+    }
+    else{
+        for (value in 2..number)
+        if (number % value == 0){
+            // uoc thu 3 xuat hien ( ko phai so nguyen to )
+            isPrime = false
+        }
+        if(isPrime){
+            println("LA so nguyen to")
+        }
+        else{
+            println("Ko phai so nguyen to")
+        }
+    }
+
 
 
 }
