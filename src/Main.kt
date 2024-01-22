@@ -70,12 +70,48 @@ fun main() {
     else{
         "Khong xac dinh "
     }
+    4.Cau dieu kien (When giong switch )
+     when(month) {
+        in 1..3 ->{
+            println("Quy 1")
+        }
+        in 4..6->{
+            println("Quy 2")
+        }
+        in 7..9 -> {
+            println("Ket qua")
+            println("Quy 2 ")
+        }
+        in 10..12 -> {
+            println("ket qua ")
+            println("Quy 3 ")
+        }
 
+        5.Vong lap for (duyet du lieu trong 1 khoang)
+        value : bien dem
+        // Unitl : la nho hon
+    // downTo : la nghich dao
+    for (value in 1..100) {
+        // in ra so chan , chia het cho 2 , % chia lay du
+        if (value % 2 == 0) {
+          //  println(value)
+        }
+        // in ra so le , khong chia het cho 2
+        if(value % 2 != 0){
+          //  println(value)
+        }
+        // so chia 3 du 1
+        if(value % 3 == 1){
+            println(value)
+        }
+    }
      */
 
 
-
 }
+
+
+
 
 
 
