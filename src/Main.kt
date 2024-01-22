@@ -56,9 +56,8 @@ fun main() {
     } else if(bmi < 35) {
         println("Tình trạng cân nặng: Béo phì\n");
     }
+    // TOAN TU 3 NGOI QUAN TRONG KOTLIN
 
-     */
-    // toan tu 3 ngoi , dong nhat du lieu
     val height = 1.67f
     val weight = 80f
     val bmi = weight / (height * height)
@@ -71,6 +70,9 @@ fun main() {
     else{
         "Khong xac dinh "
     }
+
+     */
+
 
 
 }
