@@ -27,12 +27,7 @@ fun main() {
      1. &&  thoa tat ca dieu kien moi tra ve true
      2. ||  tat ca dieu kien ve false se tra ve true
      3. !   phu dinh cua dieu kien ( la dieu kien nguoc lai cua no )
-
-
-}
-
-     */
-    val a = 5
+     val a = 5
     val b = 10
     if(a>b){
         print("a lon b")
@@ -41,7 +36,45 @@ fun main() {
     }else{
         print(" a bang b ")
     }
-    println("Tiep tuc")
+       println("Tiep tuc")
 
 
+
+}
+ // vi du 1 :
+    val height = 1.67f
+    val weight = 80f
+    println("Nhập chiều cao của bạn (m): $height ");
+    println("Nhập cân nặng của bạn (kg): $weight ");
+    val bmi = weight / (height * height)
+    if (bmi < 18.5) {
+        println("Tình trạng cân nặng: Gầy\n");
+    } else if (bmi < 24.9) {
+        println("Tình trạng cân nặng: Bình thường\n");
+    } else if (bmi < 30) {
+        println("Tình trạng cân nặng: Thừa cân\n");
+    } else if(bmi < 35) {
+        println("Tình trạng cân nặng: Béo phì\n");
     }
+
+     */
+    // toan tu 3 ngoi , dong nhat du lieu
+    val height = 1.67f
+    val weight = 80f
+    val bmi = weight / (height * height)
+    val message = if(bmi<18.5){
+        "Tình trạng cân nặng: Thap "
+    }
+    else if(bmi<= 24.9){
+        "binh thuong"
+    }
+    else{
+        "Khong xac dinh "
+    }
+
+
+}
+
+
+
+
