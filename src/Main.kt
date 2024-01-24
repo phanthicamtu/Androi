@@ -132,12 +132,24 @@ fun main() {
    // kt dieu kien
     var index = 0
     while (index<= 10){
+        val tmpIndex = index
+        index++
+        if(index == 2){
+            continue
+        }
         println(index)
         index += 1
     }
+
+     //tang ++ trc, moi bo qua vong lap nay : continue
+    for (index in 0..10) { // index la gia tri bat dau tu 0 den 10
+        // gan de xuat gia tri ban dau
+        if (index == 2) {
+            continue
+        }
+        println(index)
+    }
      */
-
-
 
 }
 
