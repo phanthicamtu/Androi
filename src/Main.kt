@@ -87,7 +87,7 @@ fun main() {
             println("Quy 3 ")
         }
 
-        5.Vong lap for (duyet du lieu trong 1 khoang)
+        5.Vong lap for (duyet du lieu trong 1 khoang),for chi duyet tu cai nay sang cai kia
         value : bien dem
         // Unitl : la nho hon
     // downTo : la nghich dao
@@ -104,13 +104,12 @@ fun main() {
         if(value % 3 == 1){
             println(value)
         }
-    }
-     */
-    // so nguyen to
+
+    //so nguyen to
     // chia het cho 2
     // chia 1 va chinh no
     // kiem tra co lon hon 1 ko
-    var number = 408
+        var number = 408
     var isPrime = true
     if(number <  2){
         println("Khong phai so nguyen to ")
@@ -128,6 +127,15 @@ fun main() {
             println("Ko phai so nguyen to")
         }
     }
+    }
+        // while : ko bit cach chay nhu the nao,ban co the duyet dc v..v
+   // kt dieu kien
+    var index = 0
+    while (index<= 10){
+        println(index)
+        index += 1
+    }
+     */
 
 
 
