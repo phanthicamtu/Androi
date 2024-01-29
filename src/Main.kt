@@ -1,3 +1,5 @@
+import model.Person
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
@@ -149,7 +151,46 @@ fun main() {
         }
         println(index)
     }
+    // TOAN TU : = + - / *
+    var a = 10
+    // c1
+    a = a + 1
+    //c2
+    a += 1
+    //c3
+    a++
+    //c4
+    ++a
+
+    var a = 10
+    var b = 5
+    var result = a-- + b-- + --b + a++ - --b + b-- + a--
+               //10 +  5 +     3 + 9 -     2 + 2   + 10 = 37
+    // a-- = 9
+    // b-- = 4
+    // --b = 3
+    // a++ = 10
+    // --b = 2
+    // b-- = 1
+    // a-- = 9
+    // 9 + 4 + 3+ 10 - 3
+    println(result)
+
+    // LAP TRINH HUONG DOI TUONG (OOP)
+    CLASS LA TAP THE
+    OBIECT DOI TUONG CU THE -> KHOI TAO TU CLASS
+    Instance : the hien
+    solid : quy tac cua OOP
+
+
      */
+    // khoi tao object
+    // tao vung nho de luu tru du lieu
+    var teo: Person = Person("Nguyen Van Teo",3,"Quan 10")
+    teo.address = null
+  // teo.name = " Nguyen Van Teo"
+   // teo.age = 3
+
 
 }
 
