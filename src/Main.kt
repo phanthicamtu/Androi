@@ -188,8 +188,8 @@ fun main() {
     // tao vung nho de luu tru du lieu
     var teo: Person = Person("Nguyen Van Teo",3,"Quan 10")
     teo.address = null
-  // teo.name = " Nguyen Van Teo"
-   // teo.age = 3
+    teo.name = " Nguyen Van Teo"
+
 
 
 }
